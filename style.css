@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    font-family: calibri; 
+    color: #575353
+}
+
+#home-content{
+    width: 55%; 
+    display: inline-block; 
+    margin-left: 30px;
+}
+
+#home-img
+{
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+#home
+{
+    padding-top: 30px;
+    background-image: url("assets/homeBg.png");
+    background-size: 100% 100%;
+}
+
+h1{
+    color: #340969;
+}
+
+#school-description
+{
+    font-size: 20px; 
+}
+
+
+.school-highlights
+{
+    display:inline-block;
+    padding:30px;
+    text-align:center;
+}
+
+
+.school-highlights-heading
+{
+    color: #340969
+}
+
+#title{
+    background-color: #340969;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: serif;
+    padding: 20px;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    font-size:20px;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #340969;
+}
+
+
+ul a{
+    color:white;
+    margin-right:40px;
+    padding:0px 15px 0px 15px;
+    border-radius:5px;
+    transition: 0.5s ease;
+    text-decoration: none;
+  }
+
+
+ul li{
+    display: inline-block;
+}
+
+
+ul li a:hover{
+    color: #4105a2;
+    background-color: #f3f348;
+  }
+
+#about
+{
+    display: flex; 
+}
+
+#about img
+{
+    width: 50%;
+}
+
+#about-content
+{
+    margin: 60px;
+    width: 40%;    
+}
+
+#about-content h4
+{
+    font-size: 25px;
+    color: orangered;
+    margin: 0px;
+}
+
+#about-content h3{
+    font-size: 60px;
+    color: #340969;
+    margin: 0px;
+}
+
+#about-content p
+{
+    font-size: 18px;
+    color: #6b6b84;
+}
+
+#about-content ol
+{
+    font-size: 18px;
+    color: #6b6b84;
+}
+
+
+
+#footer{
+    color: white;
+    display: flex;
+    background-color: #3c3c3c;
+    
+}
+
+.footer-section{
+    width: 30%;
+    margin: 20px;
+}
+
+.footer-section h2
+{
+    font-size: 25px;
+    color: orangered;
+}
+
+.footer-section h3
+{
+    color: orangered;
+}
+
+
+#social-media-section
+{
+    text-align: center;
+    background: #303030;
+    width: 100%;
+}
+
+#social-media-section img
+{
+    width:35px;
+    margin:10px;
+}
+
+/* Set the properties width, height, background-size and 10s animations for the slider */
+#slider{
+    width:100%;
+    height: 400px;
+    animation: student 10s infinite
+    
+
+}
+
+/* Define the animation slideshow at 0%, 50% and 100% timestamps*/
+@keyframes student {
+    0%{background-image: url(assets/banner1.png)}
+    50%{background-image: url(assets/banner2.png)}
+    100%{background-image: url(assets/banner3.png)}
+}
+
+#events{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+/*    background-color: blue*/
+    margin: 20px;
+    width:20%;
+    box-shadow: 0px 4px 8px 0px purple;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 0 4px 20px 0 #583681;
+    width: 22%;
+    border-radius: 20px;
+   
+}
+.card:hover h2{
+    font-family: cursive;
+    text-decoration-line: 2px solid
+}
+
+
